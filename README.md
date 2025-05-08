@@ -1,4 +1,4 @@
-Descrição do Projeto
+
 Este projeto é uma DAG do Apache Airflow que tem como objetivo enviar novos arquivos do Diário Oficial (DOE) para o Elasticsearch. Ele extrai os arquivos PDF diariamente do DIARIO OFICIAL DOS MUNICIPIOS DO ESTADO DO AMAZONAS, processa e reparte em ATOS os arquivos dos diários, extrai o texto, e os envia para o Elasticsearch, onde ficam indexados para uma busca posterior.
 
 A DAG é configurada para ser executada automaticamente em intervalos de 30 minutos, entre 14h e 18h. O fluxo inclui as seguintes etapas:
